@@ -19,8 +19,4 @@
     <ProjectReference Include="..\KayeAndFinds.Domain\KayeAndFinds.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Services\Products\Commands\" />
-  </ItemGroup>
-
 </Project>
