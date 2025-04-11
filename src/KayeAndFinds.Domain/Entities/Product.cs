@@ -1,8 +1,6 @@
-﻿using KayeAndFinds.Domain.Enums;
+﻿namespace KayeAndFinds.Domain.Entities;
 
-namespace KayeAndFinds.Domain.Entities;
-
-public class Product
+public class Product : Entity<Guid>
 {
     public string Name { get; set; } = default!;
     public ProductCategory ProductCategory { get; set; } = ProductCategory.Clothing;
